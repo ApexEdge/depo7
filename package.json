@@ -1,0 +1,21 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^8.0.0",
+    "astro": "^4.15.11"
+  },
+  "devDependencies": {
+    "terser": "^5.37.0",
+    "typescript": "^5.0.0"
+  }
+}
